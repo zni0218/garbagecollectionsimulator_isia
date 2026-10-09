@@ -1,0 +1,161 @@
+1 TRUCK - 3 BINS!
+
+MÉTRICAS TRUCK:
+quantidade de bins recolhidos por truck = 						[13]; 			[15];			[12];			[10];			[13]
+quantidade total de lixo recolhido por truck = 						[957]; 			[1274];			[934];			[754];			[1131]
+quantidade media de lixo recolhida em cada recolha por truck = 				[74];	 		[85];			[78];			[75];			[87]
+quantidade total de gas consumido por truck = 						[92]; 			[180];			[99];			[113];			[172]	
+quantidade media de gas consumido em cada recolha por truck = 				[7]; 			[12];			[8];			[11];			[13]
+quantidade de idas ao depot (voluntarias) por truck = 					[4]; 			[8];			[4];			[5];			[7]
+quantidade idas ao depot (por passagem) por truck = 					[0]; 			[0];			[0];			[0];			[0]
+quantidade idas ao depot (total) por truck = 						[4]; 			[8];			[4];			[5];			[7]
+	
+MÉTRICAS BIN:
+quantidade de recolhas normais por bin = 						[4, 5, 4]; 		[6, 3, 6];		[5, 4, 3];		[3, 3, 4];		[4, 6, 3]
+quantidade de recolhas de emergencia por bin = 						[0, 0, 0];		[0, 2, 2];		[0, 1, 2];		[0, 1, 0];		[1, 4, 4]
+quantidade de realocacoes (derivadas de paragens no transito ou no depot) por bin = 	[2, 4, 0]; 		[9, 3, 6];		[2, 2, 2];		[4, 2, 2];		[3, 8, 7]
+quantidade de realocacoes (derivadas de erros de comunicacao) por bin = 		[0, 0, 0]; 		[0, 4, 2];		[0, 2, 9];		[0, 4, 0];		[4, 8, 12]
+distancia do bin ao depot = 								[3, 4, 4]; 		[5, 7, 6];		[6, 3, 8];		[6, 4, 6];		[6, 6, 6]
+distancia media do bin aos restantes bins = 						[6, 3, 4]; 		[8, 7, 10];		[6, 7, 9];		[9, 9, 10];		[6, 8, 10]
+tempo total gasto em recolhas por bin = 						[21, 21, 14]; 		[33, 22, 35];		[25, 14, 22];		[21, 23, 24];   	[10, 29, 16]
+tempo medio gasto por recolha por bin = 						[5, 4,  3]; 		[6, 7, 6];		[5, 3, 7];		[7, 8, 6];		[2, 5, 5]
+tempo total gasto em comunicacoes por bin = 						[6, 10, 4]; 		[17, 9, 14];		[8, 9, 5];		[8, 5, 7];		[11, 18, 11]
+tempo medio gasto por comunicacao por bin = 						[1, 2,  1]; 		[3, 3, 2];		[2, 2, 2];		[3, 2, 2];		[3, 3, 4]
+
+
+
+	
+
+#--------------------///--------------------///--------------------///--------------------
+
+
+
+
+
+2 TRUCK - 6 BINS!
+
+MÉTRICAS TRUCK:
+quantidade de bins recolhidos por truck = 						[18, 13];		   [18, 14];		   [20, 15];		       [17, 20];		   [15, 17]
+quantidade total de lixo recolhido por truck = 						[1382, 1000];		   [1419, 1103];	   [1504, 1101];	       [1319, 1533];		   [1131, 1271]
+quantidade media de lixo recolhida em cada recolha por truck = 				[77, 77];		   [79, 79];		   [75.2, 73.4];               [78, 77];		   [75, 75]	
+quantidade total de gas consumido por truck = 						[143, 149];		   [145, 158];		   [132, 119];		       [135, 161];		   [97, 128]		
+quantidade media de gas consumido em cada recolha por truck = 				[8, 11];		   [8, 11];		   [6.6, 7.93];		       [8, 8];			   [6.47, 7.53]		
+quantidade de idas ao depot (voluntarias) por truck = 					[6, 6];			   [6, 6];		   [5, 5];		       [6, 6];			   [4, 5]
+quantidade idas ao depot (por passagem) por truck = 					[0, 0];			   [0, 0];		   [0, 0];	               [0, 1];			   [0, 0]		
+quantidade idas ao depot (total) por truck = 						[6, 6];			   [6, 6];		   [5, 5];		       [6, 7];			   [4, 5]			
+
+MÉTRICAS BIN:
+quantidade de recolhas normais por bin = 						[5, 6, 7, 4, 4, 4];	   [4, 7, 4, 5, 6, 5];	   [8, 7, 4, 5, 4, 7];	       [7, 6, 6, 7, 4, 7];	   [4, 6, 6, 6, 3, 7]		
+quantidade de recolhas de emergencia por bin = 						[0, 1, 0, 1, 0, 1];	   [1, 0, 2, 1, 0, 4];	   [0, 0, 0, 0, 0, 1];	       [1, 0, 1, 0, 1, 1];	   [0, 0, 0, 0, 0, 0]
+quantidade de realocacoes (derivadas de paragens no transito ou no depot) por bin = 	[0, 2, 10, 5, 3, 4];	   [3, 2, 7, 3, 2, 5];	   [2, 8, 2, 1, 2, 5];	       [11, 1, 5, 3, 2, 4];	   [4, 7, 7, 0, 1, 0]
+quantidade de realocacoes (derivadas de erros de comunicacao) por bin = 		[0, 2, 1, 0, 0, 1];	   [2, 0, 5, 3, 0, 16];	   [0, 3, 0, 0, 0, 5];	       [0, 0, 9, 10, 6, 5];        [0, 2, 0, 1, 2, 3]
+distancia do bin ao depot = 								[4, 1, 5, 7, 4, 6];	   [7, 4, 6, 6, 3, 9];	   [5, 5, 5, 3, 7, 5];	       [5, 6, 1, 4, 7, 7];	   [8, 5, 5, 2, 3, 3]
+distancia media do bin aos restantes bins = 						[7, 5, 7, 9, 7, 8];	   [5, 5, 12, 4, 5, 6];	   [6, 4, 6, 8, 5, 4];	       [9, 7, 6, 7, 8, 8];	   [8, 6, 8, 5, 6, 5]
+tempo total gasto em recolhas por bin = 						[29, 19, 34, 33, 24, 19]   [5, 5, 12, 4, 5, 6];	   [45, 34, 17, 25, 22, 24];   [42, 29, 12, 33, 30, 40];   [28, 27, 29, 30, 13, 28]
+tempo medio gasto por recolha por bin = 						[6, 3, 5, 8, 3, 4];	   [2, 3, 6, 3, 4, 6];	   [6, 5, 4, 5, 5, 3];	       [6, 5, 2, 5, 7, 6];	   [7, 4, 5, 5, 4, 4]
+tempo total gasto em comunicacoes por bin = 						[7, 9, 20, 12, 9, 14];	   [7, 9, 12, 9, 9, 14];   [12, 17, 8, 7, 7, 13];      [20, 8, 12, 11, 7, 12];	   [9, 15, 15, 7, 6, 8]
+tempo medio gasto por comunicacao por bin = 						[1, 2, 3, 3, 3, 3];	   [2, 1, 3, 2, 2, 3];	   [1, 2, 2, 1, 2, 2];	       [3, 1, 2, 2, 2, 2];	   [2, 2, 3, 1, 2, 1]	
+
+
+
+
+
+#--------------------///--------------------///--------------------///--------------------
+
+
+
+
+
+3 TRUCK - 9 BINS!
+
+MÉTRICAS TRUCK:			
+quantidade de bins recolhidos por truck = [12, 22, 16]; [12, 22, 16]; [20, 20, 18]; [17, 18, 14]; [18, 17, 16]
+quantidade total de lixo recolhido por truck = 	[935, 1622, 1195]; [935, 1622, 1195]; [1516, 1597, 1356]; [1264, 1452, 1085]; [1359, 1383, 1255]
+quantidade media de lixo recolhida em cada recolha por truck = [78, 74, 75]; [78, 74, 75]; [76, 80, 75]; [74, 81, 78]; [76, 81, 78]
+quantidade total de gas consumido por truck = [109, 124, 120]; [109, 124, 120]; [173, 188, 188]; [99, 185, 123]; [171, 159, 181]
+quantidade media de gas consumido em cada recolha por truck = [9, 6, 7]; [9, 6, 8]; [9, 9, 10];	[6, 10, 9]; [10, 9, 11]
+quantidade de idas ao depot (voluntarias) por truck = [4, 6, 5]; [4, 6, 5]; [7, 8, 8];	[4, 7, 5]; [7, 7, 8]
+quantidade idas ao depot (por passagem) por truck = [1, 0, 0]; [1, 0, 0]; [0, 0, 0]; [0, 0, 0]; [0, 0, 0]
+quantidade idas ao depot (total) por truck = [5, 6, 5]; [5, 6, 5]; [7, 8, 8]; [4, 7, 5]; [7, 7, 8]
+
+MÉTRICAS BIN:
+quantidade de recolhas normais por bin = [6, 5, 7, 4, 5, 7, 6, 4, 6]; [6, 5, 7, 4, 5, 7, 6, 4, 6]; [6, 8, 6, 8, 5, 7, 7, 4, 6];	[6, 6, 5, 5, 4, 4, 4, 4, 8]; [7, 4, 3, 6, 4, 5, 6, 6, 8]
+quantidade de recolhas de emergencia por bin = [0, 0, 0, 0, 0, 0, 1, 0, 0]; [0, 0, 0, 0, 0, 0, 1, 0, 0]; [0, 0, 0, 0, 0, 2, 1, 2, 0]; [3, 0, 0, 2, 0, 0, 0, 0, 0]; [0, 1, 1, 2, 0, 2, 0, 0, 0]
+quantidade de realocacoes (derivadas de paragens no transito ou no depot) por bin = [4, 3, 4, 0, 2, 0, 2, 5, 3]; [4, 3, 4, 0, 2, 0, 2, 5, 3]; [6, 7, 1, 4, 8, 13, 6, 5, 1]; [12, 2, 1, 10, 1, 2, 6, 0, 1]; [2, 8, 5, 12, 6, 13, 3, 4, 4]
+quantidade de realocacoes (derivadas de erros de comunicacao) por bin = [0, 3, 1, 0, 2, 1, 4, 1, 7]; [0, 3, 1, 0, 2, 1, 4, 1, 7]; [2, 0, 0, 2, 1, 6, 3, 5, 0]; [1, 0, 0, 5, 7, 3, 9, 1, 1]; [2, 5, 5, 7, 1, 4, 1, 4, 2]
+distancia do bin ao depot = [2, 4, 7, 2, 5, 7, 6, 8, 3]; [2, 4, 7, 2, 5, 7, 6, 8, 3]; [7, 2, 7, 5, 6, 8, 8, 4, 3]; [7, 7, 1, 9, 3, 2, 3, 4, 3]; [2, 6, 6, 9, 7, 6, 3, 3, 3]
+distancia media do bin aos restantes bins = [5, 5, 10, 5, 6, 6, 6, 9, 7]; [5, 5, 10, 5, 6, 6, 6, 9, 7]; [9, 6, 7, 6, 6, 9, 10, 8, 6]; [8, 7, 5, 11, 5, 5, 5, 5, 6]; [6, 6, 7, 10, 9, 8, 6, 6, 6]
+tempo total gasto em recolhas por bin = [14, 19, 40, 15, 19, 18, 14, 31, 31]; [14, 19, 40, 15, 19, 18, 14, 30, 31]; [35, 28, 31, 40, 26, 38, 43, 17, 21]; [36, 28, 8, 38, 10, 8, 14, 14, 29]; [21, 23, 13, 49, 16, 27, 31, 22, 35]
+tempo medio gasto por recolha por bin = [2, 4, 6, 4, 4, 3, 3, 8, 5]; [2, 4, 6, 4, 4, 3, 2, 8, 5]; [6, 3, 5, 5, 5, 5, 6, 4, 4]; [6, 5, 2, 8, 3, 2, 3, 3, 4]; [3, 6, 4, 8, 4, 5, 5, 4, 4]
+tempo total gasto em comunicacoes por bin = [12, 10, 13, 5, 8, 8, 10, 11, 11];[12, 10, 13, 5, 8, 8, 10, 11, 11]; [14, 18, 8, 14, 16, 23, 17, 13, 8]; [22, 9, 7, 23, 6, 7, 12, 5, 10]; [10, 14, 9, 31, 12, 27, 10, 12, 14]
+tempo medio gasto por comunicacao por bin = [2, 2, 2, 1, 2, 1, 2, 3, 2]; [2, 2, 2, 1, 2, 1, 2, 3, 2]; [2, 2, 1, 2, 3, 3, 2, 3, 1]; [4, 2, 1, 5, 2, 2, 3, 1, 1]; [1, 3, 3, 5, 3, 5, 2, 2, 1]
+
+
+
+
+
+--------------------///--------------------///--------------------///--------------------
+
+
+
+
+
+4 TRUCK - 12 BINS!
+
+MÉTRICAS TRUCK:
+quantidade de bins recolhidos por truck = [21, 15, 23, 16]; [21, 18, 20, 22]; [16, 12, 14, 22]; [24, 14, 15, 22]; [22, 14, 15, 11]
+quantidade total de lixo recolhido por truck = [1611, 1130, 1771, 1270]; [1539, 1295, 1431, 1575]; [1184, 917, 1071, 1657]; [1772, 1036, 1088, 1661]; [1674, 1055, 1111, 827]
+quantidade media de lixo recolhida em cada recolha por truck = [77, 75, 77, 79]; [73, 72, 72, 72]; [74, 77, 77, 75]; [74, 74, 73, 76]; [76, 75, 74, 75]
+quantidade total de gas consumido por truck = [178, 156, 140, 146]; [85, 87, 94, 77]; [104, 123, 144, 150]; [116, 82, 78, 146]; [146, 124, 122, 118]
+quantidade media de gas consumido em cada recolha por truck = [8, 10, 6, 9]; [4, 5, 5, 4];  [7, 10, 10, 7]; [5, 6, 5, 7]; [7, 9, 8, 10]
+quantidade de idas ao depot (voluntarias) por truck = [7, 6, 6, 6]; [4, 4, 4, 4]; [4, 5, 6, 6]; [5, 3, 3, 7]; [6, 4, 5, 5]
+quantidade idas ao depot (por passagem) por truck = [1, 0, 0, 0]; [0, 0, 0, 0]; [0, 0, 0, 0]; [0, 0, 0, 0]; [0, 0, 0, 0]
+quantidade idas ao depot (total) por truck = [8, 6, 6, 6]; [4, 4, 4, 4]; [4, 5, 6, 6]; [5, 3, 3, 7]; [6, 4, 5, 5]
+
+MÉTRICAS BIN:
+quantidade de recolhas normais por bin = [4, 7, 5, 7, 7, 4, 7, 6, 6, 6, 5, 6]; [8, 5, 8, 8, 4, 7, 6, 9, 4, 8, 8, 6]; [3, 8, 4, 6, 6, 6, 6, 5, 7, 4, 4, 4]; [8, 4, 5, 6, 5, 6, 6, 6, 7, 5, 8, 8]; [5, 5, 7, 6, 5, 6, 4, 6, 4, 5, 4, 4]
+quantidade de recolhas de emergencia por bin = [2, 0, 0, 0, 2, 0, 1, 1, 0, 1, 0, 1]; [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; [0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1]; [0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1]; [0, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 1]
+quantidade de realocacoes (derivadas de paragens no transito ou no depot) por bin = [6, 3, 1, 0, 7, 3, 9, 4, 4, 4, 3, 3]; [2, 2, 0, 1, 1, 2, 2, 4, 0, 2, 0, 1]; [6, 2, 1, 3, 6, 8, 1, 0, 6, 1, 2, 6]; [0, 0, 8, 3, 2, 3, 2, 1, 0, 1, 1, 8]; [1, 4, 4, 2, 4, 0, 2, 6, 1, 0, 4, 7]
+quantidade de realocacoes (derivadas de erros de comunicacao) por bin = [3, 4, 0, 0, 8, 0, 6, 0, 3, 9, 0, 7]; [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0]; [6, 4, 6, 6, 4, 7, 4, 5, 8, 5, 6, 9]; [0, 0, 1, 1, 6, 1, 9, 4, 3, 2, 0, 2]; [1, 0, 0, 0, 10, 4, 2, 5, 0, 0, 0, 0]
+distancia do bin ao depot = [4, 6, 8, 9, 7, 7, 5, 3, 8, 8, 9, 5]; [8, 2, 3, 4, 8, 4, 4, 3, 5, 3, 5, 6]; [3, 1, 8, 3, 3, 6, 5, 5, 5, 4, 6, 4]; [3, 1, 8, 3, 3, 6, 5, 5, 5, 4, 6, 4]; [2, 7, 3, 3, 6, 3, 5, 8, 4, 2, 6, 10]
+distancia media do bin aos restantes bins = [8, 7, 9, 10, 8, 9, 8, 8, 9, 7, 10, 7]; [6, 4, 7, 7, 6, 5, 4, 4, 6, 5, 6, 4]; [9, 6, 7, 7, 7, 8, 6, 6, 7, 9, 8, 9]; [5, 5, 8, 5, 6, 6, 5, 8, 8, 7, 6, 6]; [6, 7, 5, 6, 6, 5, 7, 9, 7, 6, 7, 10]
+tempo total gasto em recolhas por bin = [20, 35, 27, 45, 21, 23, 28, 29, 15, 38, 28, 25]; [46, 10, 19, 19, 13, 27, 21, 24, 17, 21, 32, 12]; [20, 20, 13, 36, 23, 32, 20, 11, 31, 27, 28, 20]; [22, 8, 27, 22, 11, 23, 22, 26, 19, 24, 33, 28]; [14, 16, 28, 22, 13, 19, 22, 23, 14, 12, 23, 28]
+tempo medio gasto por recolha por bin = [5, 5, 5, 6, 3, 6, 4, 5, 2, 6, 6, 4]; [6, 2, 2, 2, 3, 4, 3, 3, 4, 3, 4, 2]; [7, 3, 3, 6, 4, 5, 3, 2, 4, 7, 7, 5]; [3, 2, 5, 4, 2, 4, 4, 4, 3, 5, 4, 3]; [3, 3, 4, 4, 3, 3, 6, 4, 3, 2, 6, 7]
+tempo total gasto em comunicacoes por bin = [17, 12, 7, 8, 18, 8, 17, 11, 12, 12, 9, 11]; [12, 8, 9, 11, 6, 12, 9, 15, 5, 12, 9, 8]; [12, 12, 6, 11, 14, 17, 9, 6, 21, 6, 7, 11]; [9, 5, 15, 10, 8, 11, 10, 14, 8, 7, 11, 19]; [7, 10, 13, 10, 12, 7, 7, 18, 6, 6, 10, 22]
+tempo medio gasto por comunicacao por bin = [4, 2, 1, 1, 3, 2, 3, 2, 2, 2, 2, 2]; [1, 2, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1]; [4, 2, 1, 2, 2, 3, 1, 1, 3, 1, 2, 3]; [1, 1, 3, 2, 2, 2, 2, 2, 1, 1, 1, 2]; [1, 2, 2, 2, 2, 1, 2, 3, 2, 1, 2, 5]
+
+
+
+
+
+--------------------///--------------------///--------------------///--------------------
+
+
+
+
+
+5 TRUCK - 15 BINS!
+
+MÉTRICAS TRUCK:
+quantidade de bins recolhidos por truck = [17, 21, 22, 16, 13]; [14, 15, 19, 20, 18]; [12, 17, 19, 20, 17]; [14, 21, 18, 17, 16]; [17, 21, 16, 14, 17]
+quantidade total de lixo recolhido por truck = [1241, 1505, 1594, 1182, 939]; [1015, 1075, 1381, 1459, 1323]; [860, 1287, 1425, 1463, 1272]; [1029, 1560, 1330, 1233, 1159]; [1317, 1516, 1209, 1074, 1243]
+quantidade media de lixo recolhida em cada recolha por truck = [73, 72, 72, 74, 72]; [73, 72, 73, 73, 74]; [72, 76, 75, 73, 75]; [74, 74, 74, 73, 72]; [77, 72, 76, 77, 73]
+quantidade total de gas consumido por truck = [94, 125, 99, 73, 84]; [90, 79, 91, 87, 87]; [51, 86, 124, 156, 114]; [73, 119, 105, 80, 105]; [87, 100, 80, 90, 134]
+quantidade media de gas consumido em cada recolha por truck = [6, 6, 5, 5, 6]; [6, 5, 5, 4, 5]; [4, 5, 7, 8, 7]; [5, 6, 6, 5, 7]; [5, 5, 5, 6, 8]
+quantidade de idas ao depot (voluntarias) por truck = [4, 5, 4, 3, 3]; [4, 3, 4, 4, 3]; [2, 3, 5, 6, 4]; [3, 5, 4, 3, 4]; [4, 4, 3, 4, 5]
+quantidade idas ao depot (por passagem) por truck = [0, 0, 0, 0, 0]; [0, 0, 0, 0, 1]; [0, 0, 0, 0, 0]; [0, 0, 0, 0, 0]; [0, 0, 0, 0, 0]
+quantidade idas ao depot (total) por truck = [4, 5, 4, 3, 3]; [4, 3, 4, 4, 4]; [2, 3, 5, 6, 4]; [3, 5, 4, 3, 4]; [4, 4, 3, 4, 5]
+
+MÉTRICAS BIN:
+quantidade de recolhas normais por bin = [8, 5, 8, 8, 5, 5, 5, 6, 5, 8, 3, 4, 4, 8, 7]; [8, 6, 5, 6, 6, 5, 4, 6, 5, 8, 4, 6, 6, 6, 5]; [4, 9, 5, 4, 5, 5, 8, 5, 5, 6, 5, 6, 5, 4, 7]; [5, 4, 5, 8, 5, 7, 6, 4, 8, 8, 5, 3, 8, 4, 6]; [4, 6, 4, 6, 6, 3, 9, 8, 5, 4, 5, 5, 5, 7, 4]
+quantidade de recolhas de emergencia por bin = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]; [0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]; [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]; [0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0]
+quantidade de realocacoes (derivadas de paragens no transito ou no depot) por bin = [0, 2, 2, 2, 1, 2, 1, 2, 6, 3, 0, 2, 2, 0, 3]; [2, 0, 2, 5, 1, 0, 0, 2, 0, 3, 0, 2, 3, 5, 2]; [1, 1, 1, 4, 0, 3, 2, 2, 3, 7, 3, 0, 4, 3, 3]; [2, 1, 0, 4, 1, 2, 3, 4, 1, 4, 1, 2, 1, 2, 4]; [1, 0, 2, 1, 10, 2, 1, 0, 7, 2, 3, 0, 4, 6, 1]
+quantidade de realocacoes (derivadas de erros de comunicacao) por bin = [0, 0, 0, 2, 0, 2, 0, 0, 1, 0, 0, 0, 0, 1, 1]; [1, 1, 0, 1, 0, 0, 3, 0, 1, 0, 0, 0, 3, 2, 0]; [0, 0, 7, 0, 0, 5, 0, 0, 0, 2, 0, 1, 7, 1, 5]; [0, 0, 0, 0, 1, 0, 0, 1, 0, 2, 2, 1, 6, 1, 1]; [7, 1, 0, 1, 2, 1, 0, 0, 1, 3, 0, 1, 2, 7, 0]
+distancia do bin ao depot = [5, 2, 7, 5, 3, 9, 2, 4, 6, 8, 5, 8, 2, 4, 7]; [3, 9, 3, 3, 7, 5, 5, 6, 2, 5, 8, 2, 2, 5, 6]; [5, 6, 6, 8, 4, 9, 2, 8, 6, 7, 7, 3, 4, 6, 2]; [5, 6, 5, 9, 2, 5, 6, 8, 1, 5, 7, 6, 4, 3, 6]; [2, 5, 8, 1, 8, 5, 5, 3, 8, 3, 5, 2, 5, 3, 7]
+distancia media do bin aos restantes bins = [6, 6, 7, 7, 6, 9, 6, 7, 7, 9, 8, 9, 6, 7, 9]; [5, 9, 5, 6, 8, 7, 6, 7, 5, 7, 8, 6, 5, 7, 8]; [6, 9, 7, 9, 6, 9, 6, 7, 6, 7, 6, 7, 5, 8, 6]; [7, 7, 6, 10, 6, 7, 7, 8, 5, 7, 8, 8, 6, 6, 7]; [5, 7, 9, 5, 9, 7, 6, 6, 9, 5, 6, 5, 7, 5, 8]
+tempo total gasto em recolhas por bin = [33, 11, 25, 29, 13, 22, 12, 16, 21, 19, 12, 23, 17, 27, 17]; [30, 23, 17, 21, 29, 19, 20, 31, 9, 30, 9, 16, 14, 13, 17]; [21, 21, 26, 29, 17, 20, 22, 34, 19, 27, 17, 16, 23, 17, 17]; [19, 11, 8, 24, 15, 38, 23, 16, 22, 33, 26, 7, 27, 18, 26]; [10, 24, 28, 10, 27, 12, 27, 24, 25, 9, 18, 11, 18, 13, 19]
+tempo medio gasto por recolha por bin = [4, 2, 3, 4, 3, 4, 2, 3, 4, 2, 4, 6, 4, 3, 2]; [4, 4, 3, 3, 5, 4, 5, 5, 2, 4, 2, 3, 2, 2, 3] ; [5, 2, 5, 7, 3, 4, 3, 7, 4, 4, 3, 3, 5, 4, 2]; [4, 3, 2, 3, 3, 5, 4, 4, 3, 4, 5, 2, 3, 4, 4]; [3, 4, 7, 1, 4, 4, 3, 3, 5, 2, 4, 2, 4, 2, 5]
+tempo total gasto em comunicacoes por bin = [10, 9, 12, 12, 7, 8, 7, 10, 13, 13, 4, 7, 7, 10, 12]; [12, 7, 8, 14, 7, 6, 5, 10, 6, 14, 5, 10, 9, 12, 8]; [6, 12, 7, 9, 6, 39, 12, 8, 10, 17, 9, 7, 11, 10, 12]; [8, 5, 6, 14, 7, 11, 11, 10, 11, 15, 7, 6, 11, 8, 12]; [6, 8, 7, 9, 20, 6, 13, 10, 23, 7, 9, 6, 17, 17, 6]
+tempo medio gasto por comunicacao por bin = [1, 2, 2, 2, 1, 2, 1, 2, 2, 2, 1, 2, 2, 1, 2]; [2, 1, 2, 2, 1, 1, 1, 2, 1, 2, 1, 2, 2, 2, 2]; [1, 1, 1, 2, 1, 8, 1, 1, 2, 3, 2, 1, 2, 2, 2]; [2, 1, 1, 2, 1, 2, 2, 2, 1, 2, 1, 2, 1, 2, 2]; [1, 1, 2, 1, 3, 2, 1, 1, 5, 2, 2, 1, 3, 2, 2]
+
++
